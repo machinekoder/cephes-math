@@ -66,6 +66,9 @@ libmd.a: $(OBJS) $(INCS)
 #	$(AR) @libmd.rf
 	$(RANLIB) libmd.a
 
+libmd.so:
+	$(CC) -shared $(OBJS) -o libmd.so
+
 # If the following are all commented out, the C versions
 # will be used by default.
 
@@ -106,6 +109,7 @@ clean:
 	rm -f paranoia
 	rm -f dcalc
 	rm -f libmd.a
+	rm -f libmd.so
 	rm -f time-it
 	rm -f dtestvec
 
