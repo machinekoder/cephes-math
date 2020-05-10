@@ -10,7 +10,7 @@ AS = as
 
 OBJS = acosh.o airy.o asin.o asinh.o atan.o atanh.o bdtr.o beta.o \
 btdtr.o cbrt.o chbevl.o chdtr.o clog.o cmplx.o const.o \
-cosh.o dawsn.o drand.o ellie.o ellik.o ellpe.o ellpj.o ellpk.o \
+cosh.o dawsn.o drand.o ei.o ellie.o ellik.o ellpe.o ellpj.o ellpk.o \
 exp.o exp10.o exp2.o expn.o expx2.o fabs.o fac.o fdtr.o \
 fresnl.o gamma.o gdtr.o hyp2f1.o hyperg.o i0.o i1.o igami.o \
 incbet.o incbi.o igam.o isnan.o iv.o j0.o j1.o jn.o jv.o k0.o k1.o \
